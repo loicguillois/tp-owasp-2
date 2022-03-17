@@ -7,15 +7,16 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 2.0.x   | secure             |
+| < 2.0   | not secure         |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+To report a vulnerability you should audit packages used in the package.json file
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+There are many way to report a vulnerability. 
+
+You could use `npm audit` or `yarn audit` to get an exausted list of vulnerabilities.
+
+To ensure that the packages used doesn't have any vulnerabilities, the best way is to set up a GitHub action or GitLab job to trigger a pipeline every time a commit is pushed.
+You could also use a third party option with for example : `Snyk`

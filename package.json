@@ -1,6 +1,6 @@
 {
   "name": "failing-react",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react-scripts": "^4.0.0"
+    "react-scripts": "^5.0.0"
   }
 }
